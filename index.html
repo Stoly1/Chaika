@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>База отдыха «Чайка» — отдых на берегу залива Волги под Казанью</title>
+  <meta name="description" content="База отдыха «Чайка» — 9 уютных домов от 75 до 200 м², бани, мини-зоопарк, пляж и катамараны на берегу залива Волги в 30 минутах от центра Казани." />
+  <link rel="icon" type="image/jpeg" href="assets/img/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="brand">
+        <img src="assets/img/logo.jpg" alt="База отдыха Чайка" class="brand__logo" />
+        <span class="brand__text">
+          <strong>Чайка</strong>
+          <small>база отдыха</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#about">О базе</a>
+        <a href="#houses">Дома</a>
+        <a href="#amenities">Услуги</a>
+        <a href="#location">Как добраться</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a href="tel:+79872253353" class="btn btn--phone header__phone">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.24 1l-2.24 2.2z"/></svg>
+        8 987 225-33-53
+      </a>
+
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">Берег залива Волги · 30 минут от Казани</p>
+      <h1 class="hero__title">База отдыха<br><span>«Чайка»</span></h1>
+      <p class="hero__lead">Уютные деревянные дома в экологически чистом лесу на берегу залива. Жаркие бани, пляж, катамараны и тишина лесного воздуха — для всей семьи и большой компании.</p>
+      <div class="hero__actions">
+        <a href="#houses" class="btn btn--primary">Выбрать дом</a>
+        <a href="tel:+79872253353" class="btn btn--ghost">Забронировать по телефону</a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="stat"><b>9</b><span>уютных домов</span></div>
+        <div class="stat"><b>3</b><span>жаркие бани</span></div>
+        <div class="stat"><b>75–200</b><span>м² площадь</span></div>
+        <div class="stat"><b>30</b><span>минут от Казани</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker">О базе отдыха</span>
+        <h2>Отдых на природе круглый год</h2>
+        <p class="section__sub">«Чайка» — это девять уютных домов в лесу на берегу залива Волги. Мы создали место, где можно отдохнуть от города, не уезжая далеко от Казани: дышать чистым воздухом, париться в бане и встречать рассветы у воды.</p>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__text">
+          <h3>Где вас ждёт «Чайка»</h3>
+          <ul class="ticks">
+            <li>В 30 минутах от центра Казани</li>
+            <li>На берегу залива Волги</li>
+            <li>В экологически чистом лесу</li>
+          </ul>
+          <p>Подойдёт для семейного отдыха, праздников и корпоративов: гостей встречают тёплые деревянные дома, банкетный зал и большая территория с местами для прогулок и активностей.</p>
+          <a href="#location" class="link-arrow">Как добраться →</a>
+        </div>
+        <div class="about__media">
+          <img src="assets/img/h100-1.jpg" alt="Деревянные дома базы отдыха Чайка летом" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOUSES -->
+  <section class="section section--tint" id="houses">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker">Дома</span>
+        <h2>Три формата для любой компании</h2>
+        <p class="section__sub">От уютного дома для семьи до просторного коттеджа с бильярдом и сауной. Все дома — из натурального дерева, со своей зоной для мангала.</p>
+      </div>
+
+      <div class="houses">
+        <!-- 75 -->
+        <article class="house">
+          <div class="house__gallery" data-gallery="75">
+            <img src="assets/img/h75-3.jpg" alt="Дом 75 м²" class="house__cover" loading="lazy" />
+            <button class="house__more" type="button">Смотреть фото</button>
+            <span class="house__badge">75 м²</span>
+          </div>
+          <div class="house__body">
+            <h3>Дом 75 м²</h3>
+            <p class="house__desc">Компактный и тёплый дом для семьи или небольшой компании.</p>
+            <ul class="house__specs">
+              <li><span>Планировка</span>2 спальни и зал</li>
+              <li><span>Спальные места</span>2 двуспальные кровати</li>
+              <li><span>Дополнительно</span>1 диван</li>
+            </ul>
+            <a href="tel:+79872253353" class="btn btn--primary btn--block">Забронировать</a>
+          </div>
+        </article>
+
+        <!-- 100 -->
+        <article class="house house--featured">
+          <div class="house__gallery" data-gallery="100">
+            <img src="assets/img/h100-1.jpg" alt="Дом 100 м²" class="house__cover" loading="lazy" />
+            <button class="house__more" type="button">Смотреть фото</button>
+            <span class="house__badge">100 м²</span>
+          </div>
+          <div class="house__body">
+            <h3>Дом 100 м²</h3>
+            <p class="house__desc">Просторный дом для большой семьи или дружной компании.</p>
+            <ul class="house__specs">
+              <li><span>Планировка</span>3 спальни и зал</li>
+              <li><span>Спальные места</span>2 двуспальные и 3 односпальные кровати</li>
+              <li><span>Дополнительно</span>1 односпальный диван</li>
+            </ul>
+            <a href="tel:+79872253353" class="btn btn--primary btn--block">Забронировать</a>
+          </div>
+        </article>
+
+        <!-- 200 -->
+        <article class="house">
+          <div class="house__gallery" data-gallery="200">
+            <img src="assets/img/h200-1.jpg" alt="Дом 200 м²" class="house__cover" loading="lazy" />
+            <button class="house__more" type="button">Смотреть фото</button>
+            <span class="house__badge">200 м²</span>
+          </div>
+          <div class="house__body">
+            <h3>Дом 200 м²</h3>
+            <p class="house__desc">Большой коттедж с собственным бильярдом и сауной для компании.</p>
+            <ul class="house__specs">
+              <li><span>Планировка</span>4 спальни и зал</li>
+              <li><span>Спальные места</span>4 двуспальные кровати</li>
+              <li><span>Дополнительно</span>2 двухместных дивана</li>
+              <li><span>В доме</span>Бильярд и сауна</li>
+            </ul>
+            <a href="tel:+79872253353" class="btn btn--primary btn--block">Забронировать</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AMENITIES -->
+  <section class="section" id="amenities">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker">На территории</span>
+        <h2>Всё для активного и спокойного отдыха</h2>
+        <p class="section__sub">Большая территория с развлечениями для детей и взрослых — скучать не придётся в любое время года.</p>
+      </div>
+
+      <div class="amenities">
+        <div class="amenity">
+          <div class="amenity__icon">🏡</div>
+          <h3>9 домов</h3>
+          <p>Уютные деревянные дома от 75 до 200 м²</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">🔥</div>
+          <h3>3 бани</h3>
+          <p>Жаркие бани для настоящего отдыха</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">🦌</div>
+          <h3>Мини-зоопарк</h3>
+          <p>Животные, которые порадуют детей и взрослых</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">🛝</div>
+          <h3>Детская площадка</h3>
+          <p>Безопасное место для игр и прогулок</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">🚣</div>
+          <h3>Катамараны и лодки</h3>
+          <p>Прогулки по воде на заливе Волги</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">🏋️</div>
+          <h3>Спортзал</h3>
+          <p>Поддерживайте форму на отдыхе</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">🎉</div>
+          <h3>Банкетный зал</h3>
+          <p>Для праздников, торжеств и корпоративов</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">🏖️</div>
+          <h3>Небольшой пляж</h3>
+          <p>Свой берег у воды для тёплых дней</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section class="section section--tint" id="location">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker">Как добраться</span>
+        <h2>Рядом с городом — далеко от суеты</h2>
+        <p class="section__sub">База отдыха «Чайка» расположена на берегу залива Волги в экологически чистом лесу, всего в 30 минутах от центра Казани.</p>
+      </div>
+
+      <div class="location">
+        <div class="location__card">
+          <h3>Мы на картах</h3>
+          <p>Постройте маршрут в удобном для вас сервисе:</p>
+          <div class="location__links">
+            <a href="https://yandex.ru/maps/org/123357835432" target="_blank" rel="noopener" class="maplink maplink--yandex">
+              <span class="maplink__name">Яндекс Карты</span>
+              <span class="maplink__go">Открыть →</span>
+            </a>
+            <a href="https://2gis.ru/kazan/geo/2956015536854984/48.777341,55.823077" target="_blank" rel="noopener" class="maplink maplink--2gis">
+              <span class="maplink__name">2ГИС</span>
+              <span class="maplink__go">Открыть →</span>
+            </a>
+          </div>
+          <div class="location__phone">
+            <span>Бронирование и вопросы</span>
+            <a href="tel:+79872253353">8 987 225-33-53</a>
+          </div>
+        </div>
+        <div class="location__map">
+          <iframe
+            title="База отдыха Чайка на карте"
+            src="https://yandex.ru/map-widget/v1/?ll=48.777341%2C55.823077&z=15&pt=48.777341,55.823077,pm2blm"
+            width="100%" height="100%" frameborder="0" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta__inner">
+      <h2>Готовы отдохнуть на природе?</h2>
+      <p>Свяжитесь с нами, чтобы узнать наличие домов и забронировать даты.</p>
+      <a href="tel:+79872253353" class="btn btn--white">📞 8 987 225-33-53</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contacts">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/img/logo.jpg" alt="База отдыха Чайка" />
+        <p>База отдыха «Чайка» — уютные дома, бани и пляж на берегу залива Волги в 30 минутах от Казани.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Навигация</h4>
+        <a href="#about">О базе</a>
+        <a href="#houses">Дома</a>
+        <a href="#amenities">Услуги</a>
+        <a href="#location">Как добраться</a>
+      </div>
+      <div class="footer__col">
+        <h4>Контакты</h4>
+        <a href="tel:+79872253353">8 987 225-33-53</a>
+        <a href="https://yandex.ru/maps/org/123357835432" target="_blank" rel="noopener">Яндекс Карты</a>
+        <a href="https://2gis.ru/kazan/geo/2956015536854984/48.777341,55.823077" target="_blank" rel="noopener">2ГИС</a>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <span>© <span id="year"></span> База отдыха «Чайка»</span>
+      <span>Берег залива Волги · 30 минут от Казани</span>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lbClose" aria-label="Закрыть">×</button>
+    <button class="lightbox__nav lightbox__prev" id="lbPrev" aria-label="Назад">‹</button>
+    <img class="lightbox__img" id="lbImg" alt="" />
+    <button class="lightbox__nav lightbox__next" id="lbNext" aria-label="Вперёд">›</button>
+    <div class="lightbox__counter" id="lbCounter"></div>
+  </div>
+
+  <a href="tel:+79872253353" class="fab" aria-label="Позвонить">
+    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.24 1l-2.24 2.2z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
